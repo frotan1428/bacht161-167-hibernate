@@ -1,9 +1,9 @@
-package com.hb06.uni_onetomany;
+package hb06.uni_onetomany;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "t_book06")
+@Table(name = "tbl_book06")
 public class Book {
 
     @Id

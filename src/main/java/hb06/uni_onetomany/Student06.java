@@ -1,11 +1,11 @@
-package com.hb06.uni_onetomany;
+package hb06.uni_onetomany;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "t_student06")
+@Table(name = "tbl_student06")
 public class Student06 {
 
     @Id

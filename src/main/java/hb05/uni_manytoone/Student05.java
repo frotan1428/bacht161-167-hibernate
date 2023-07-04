@@ -1,4 +1,4 @@
-package com.hb05.uni_manytoone;
+package hb05.uni_manytoone;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.hb05.uni_manytoone;
+package hb05.uni_manytoone;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

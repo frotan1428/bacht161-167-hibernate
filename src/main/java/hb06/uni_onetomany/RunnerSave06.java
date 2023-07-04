@@ -1,4 +1,4 @@
-package com.hb06.uni_onetomany;
+package hb06.uni_onetomany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
