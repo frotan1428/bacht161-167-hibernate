@@ -101,15 +101,46 @@ public class RunnerFetch07 {
       //  System.out.println(std.getBookList());
         session.delete(std);
 
-         */
+
 
         // delete book object with get method() id 1002
         //2nd  way OrphanRemove
 
         Student07 std2= session.get(Student07.class,1002);
         std2.getBookList().set(0,null);//1004-101-102
+         */
+
 
       // write a HQL query which will  bring students whose book name has word "Arts";
+
+        String hqlQuery5="SELECT s FROM Student07 s JOIN s.bookList b WHERE b.name LIKE '%Arts%'";
+
+      List<Student07>  resultList =  session.createQuery(hqlQuery5, Student07.class).getResultList();
+
+      for (Student07 std :resultList){
+          System.out.println(std);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
