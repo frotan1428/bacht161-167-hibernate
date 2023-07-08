@@ -113,7 +113,7 @@ public class RunnerFetch07 {
 
       // write a HQL query which will  bring students whose book name has word "Arts";
 
-        String hqlQuery5="SELECT s FROM Student07 s JOIN s.bookList b WHERE b.name LIKE '%Arts%'";
+        String hqlQuery5="SELECT s FROM Student12 s JOIN s.bookList b WHERE b.name LIKE '%Arts%'";
 
       List<Student07>  resultList =  session.createQuery(hqlQuery5, Student07.class).getResultList();
 
